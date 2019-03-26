@@ -208,22 +208,41 @@ h1, h2, h3, h4, h5 {
     .container {
       width: 100%;
     }
+
+    .top-content {
+        display: flex;
+    }
     
     header {
       align-content: center;
       justify-content: center;
       display: flex;
+      flex-direction: column-reverse;
     }
     
     header nav {
+      width: 100%;
       display: flex;
     }
     
     header nav a {
       display: flex;
-      flex-direction: reverse-column;
     }
     
+    header img {
+        display: flex;
+        align-items: center;
+    }
+
+.center-pic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+    .middle-img {
+        width: 600px;
+    }
 
     .main-content {
         margin: 20px 5%;
