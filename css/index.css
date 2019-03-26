@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5 {
         align-items: center;
     }
 
-.center-pic {
+    .center-pic {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
