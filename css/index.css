@@ -291,6 +291,13 @@ header {
       flex-direction: column;
     }
 
+    header nav a {
+      border: 1px solid black;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .main-content {
       display: flex;
       flex-direction: column;
