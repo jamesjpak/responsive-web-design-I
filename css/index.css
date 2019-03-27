@@ -283,13 +283,28 @@ header {
     }
 
     .top-content {
-        display: flex;
+        display: block;
     }
 
     header nav {
       display: flex;
       flex-direction: column;
     }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tsintro-text {
+      display: block;
+      width: 100%;
+      align-content: center;
+  }
+  
+  .tsintro img {
+    display: none;
+  }
 
 }
 
