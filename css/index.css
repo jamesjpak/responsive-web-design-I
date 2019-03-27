@@ -296,6 +296,12 @@ header {
       padding: 20px;
       display: flex;
       flex-wrap: wrap;
+      margin-right: 0;
+      justify-content: center;
+    }
+
+    header nav a:first-child {
+      display: 
     }
 
     .main-content {
